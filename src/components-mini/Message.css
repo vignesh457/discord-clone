@@ -1,0 +1,31 @@
+.message-ctn{
+    display: flex;
+    padding: 8px;
+    border-radius: 7px;
+}
+.message-ctn:hover{
+    background-color: #2E3035;
+}
+.message-dp{
+    font-size: 50px !important;
+}
+.text-part{
+    color: white;
+    margin-left: 10px;
+}
+.user-name{
+    font-size: 12px;
+    font-weight: 800;
+}
+.timings{
+    font-size: 10px;
+    color: #848A92;
+    margin-left: 10px;
+    font-weight: 700;
+}
+.text-message{
+    font-weight: 500;
+    margin-top: 4px;
+    font-size: 13px;
+    color: #D1D4D7;
+}

@@ -1,0 +1,35 @@
+.sidebar-footer{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    height:12%;
+    background-color: #1E1F22;
+    color: #80848E;
+    border-top: 2px solid #2B2D31;
+}
+.sidebar-footer h3{
+    color: white;
+    font-size: 14px;
+}
+.sidebar-footer p{
+    font-size: 12px;
+    margin-top: 2px;
+}
+.icon-side-profile{
+    font-size: 40px !important;
+    margin-right: 7px;
+}
+.icon-side{
+    font-size: 23px !important;
+}
+.icon-side:hover{
+    color: #DBDEE1;
+}
+.sidebar-footer-main{
+    display: flex;
+    padding: 2px 5px;
+    border-radius: 5px;
+}
+.sidebar-footer-main:hover{
+    background-color: #35373C;
+}
