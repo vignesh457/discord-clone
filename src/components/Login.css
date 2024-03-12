@@ -1,0 +1,17 @@
+.login-ctn{
+    width: 100vw;
+    height: 100vh;
+    background-image: url("../images/discordBg.jpg");
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    border-radius: 10px;
+}
+.signIn-btn{
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: translateX(-50%);
+    font-size: 20px!important;
+    text-transform: none!important;
+}

@@ -1,0 +1,25 @@
+.channel{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 85%;
+    border-radius: 5px;
+    color: #80848E;
+}
+.channel:hover{
+    cursor: pointer;
+    background-color: #35373C;
+    color: white;
+}
+.channel h3{
+    flex: 0.9;
+    font-size: 15px;
+    font-weight: 500;
+}
+.icon-side{
+    font-size: 23px !important;
+    margin-right: 5px;
+}
+.icon-side:hover{
+    color: #DBDEE1;
+}
