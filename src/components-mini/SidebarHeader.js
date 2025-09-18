@@ -2,7 +2,7 @@ import React, { useState } from 'react'
 import "./SidebarHeader.css"
 import { useDispatch, useSelector } from 'react-redux';
 import img from "../images/discord.png"
-import ClearIcon from '@material-ui/icons/Clear';
+import ClearIcon from '@mui/icons-material/Clear';
 
 function SidebarHeader() {
   const user = useSelector((state)=>state.user.user);

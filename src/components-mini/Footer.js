@@ -1,6 +1,6 @@
 import React from 'react'
 import "./Footer.css"
-import { Avatar } from '@material-ui/core';
+import { Avatar } from '@mui/material';
 import { useSelector } from 'react-redux';
 
 function Footer() {

@@ -1,8 +1,8 @@
 import React, { useEffect, useState, useRef } from 'react'
-import ExpandMoreIcon from '@material-ui/icons/ExpandMore';
-import ExpandLessIcon from '@material-ui/icons/ExpandLess';
+import ExpandMoreIcon from '@mui/icons-material/ExpandMore';
+import ExpandLessIcon from '@mui/icons-material/ExpandLess';
 import "./Sidebar.css"
-import AddIcon from '@material-ui/icons/Add';
+import AddIcon from '@mui/icons-material/Add';
 import Channel from '../components-mini/Channel';
 import Footer from '../components-mini/Footer';
 import SidebarHeader from '../components-mini/SidebarHeader';

@@ -1,11 +1,11 @@
 import React from 'react'
-import Search from '@material-ui/icons/Search';
-import ExitToAppIcon from '@material-ui/icons/ExitToApp';
+import Search from '@mui/icons-material/Search';
+import ExitToAppIcon from '@mui/icons-material/ExitToApp';
 import "./Nav.css"
 import {auth} from '../firebase'
 import { signOut } from 'firebase/auth';
 import { useDispatch, useSelector } from 'react-redux';
-import MenuIcon from '@material-ui/icons/Menu';
+import MenuIcon from '@mui/icons-material/Menu';
 
 function Nav() {
   const channelName = useSelector((state)=>state.app.channelName);
